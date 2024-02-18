@@ -50,17 +50,14 @@ export default function Home({navigation}: any) {
           <View style={{alignItems: 'center', justifyContent: 'center'}}>
             <View style={styles.featureCardWrapper}>
               <FeatureCard
-                content="Find Doctors near you"
+                content="View Medical Statistics"
                 imgUrl={chattingImg}></FeatureCard>
               <FeatureCard
-                content="Instant Video Consultation"
+                content="View Pressure Sensor"
                 imgUrl={callingImg}></FeatureCard>
               <FeatureCard
-                content="Order Medicines"
+                content="Mobility"
                 imgUrl={videoImg}></FeatureCard>
-              <FeatureCard
-                content="Lab Tests"
-                imgUrl={shoppingImg}></FeatureCard>
             </View>
           </View>
           <View style={{flexDirection: 'row'}}>
